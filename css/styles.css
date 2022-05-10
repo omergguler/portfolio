@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family:  sans-serif;
+}
+
+
+.omer-image{
+  width: 20%;
+  border-radius: 50%;
+  margin-top: 33.200px;
+}
+.profile p{
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Satisfy', cursive;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #163857;
+}
+
+h3{
+  color:  #11999E;
+}
+
+p{
+  color: #40514E;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+a{
+  color:  #11999E;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+hr{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-style:none;
+  border-top-style:dotted;
+  width: 5%;
+  border-width: 10px;
+  border-color: #EAF6F6;
+}
+
+.introduction-image{
+  width: 100%;
+}
+
+.contact-me{
+  padding-bottom: 100px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
+
+.footer-link{
+  text-decoration: none;
+  margin: 20px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomContainer{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.middle-container{
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin-top: 32px;
+}
+
+.topContainer{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+
+.contact-me p{
+  width: 50%;
+  margin: 0 auto 40px;
+}
+
+
+.coding-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.lego-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.btn {
+  background: #66BFBF;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+table{
+  visibility: hidden;
+  position: absolute
+  ;
+}
+
+@media (max-width: 750px) {
+
+  h4{
+    font-size: 1.2rem;
+  }
+
+  table{
+    padding: 100px 25% 30px;
+    visibility:visible;
+    position: static;
+    text-align: center;
+  }
+  .introduction-image{
+    visibility: hidden;
+    position: absolute;
+  }
+  #profile .omer-image{
+    margin: 0;
+    width: 150px;
+    visibility: visible;
+    position: static;
+  }
+  #profile p{
+    line-height: 1;
+    text-align: center;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  .omer-image{
+    position: absolute;
+    visibility: hidden;
+  }
+}
